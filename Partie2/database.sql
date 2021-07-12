@@ -43,3 +43,17 @@ DROP TABLE `librairies`;
 
 exercice 9:
 DROP TABLE `ide`;
+
+TP:
+CREATE DATABASE `codex`;
+USE `codex`;
+CREATE TABLE `clients` (
+    `id` INT AUTO_INCREMENT PRIMARY KEY,
+    `lastname` VARCHAR(40),
+    `firstname` VARCHAR(40),
+    `birthDate` DATETIME,
+    `address` VARCHAR(40),
+    `firstPhoneNumber` INT,
+    `secondPhoneNumber` INT,
+    `mail` VARCHAR(40)
+);
