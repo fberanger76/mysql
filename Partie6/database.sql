@@ -1,7 +1,7 @@
 exercice 1:
 SELECT `id`, `framework`, `version`  
 FROM `frameworks` 
-WHERE `version` BETWEEN '2' AND '2.99';
+WHERE `version` LIKE '2.%';
 
 exercice 2:
 SELECT `id`, `framework`, `version`  
